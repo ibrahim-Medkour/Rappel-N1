@@ -9,7 +9,6 @@ for (let i = 0; i < nombres.length; i++) {
 
             let existe = false;
 
-            // N9elbo f repetition
             for (let b = 0; b < repetition.length; b++) {
 
                 if (nombres[i] == repetition[b]) {
@@ -17,7 +16,6 @@ for (let i = 0; i < nombres.length; i++) {
                 }
             }
 
-            // Ila mazal ma kaynch
             if (existe == false) {
                 repetition.push(nombres[i]);
             }
@@ -26,7 +24,7 @@ for (let i = 0; i < nombres.length; i++) {
 }
 
     console.log(repetition);
-    
+
 
 
 
