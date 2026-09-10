@@ -13,6 +13,6 @@ description_article,Résumé ou courte description de l'article,Texte long,Oui,N
 contenu_article,Contenu complet de l'article,Texte long,Oui,Non
 image_article,Image principale de l'article,URL ou nom de fichier image,Non,Non
 date_publication,Date de publication de l'article,JJ/MM/AAAA,Oui,Non
-temps_lecture,Durée estimée de lecture,Minutes,Oui
+temps_lecture,Durée estimée de lecture,Minutes,Oui,Non
 email,Adresse email de l'administrateur,Email,Oui,Non
 mot_de_passe,Mot de passe de l'administrateur,Texte sécurisé,Oui,Non
