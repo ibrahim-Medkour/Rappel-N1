@@ -1,18 +1,18 @@
-Nom,Signification,Type,Format,Taille,Obligatoire,Calculée
-nom,Nom de la personne,Texte,Alphabétique,100,Oui,Non
-prenom,Prénom de la personne,Texte,Alphabétique,100,Oui,Non
-photo_profil,Image du profil,Texte,URL ou nom de fichier image,255,Non,Non
-description_profil,Présentation de la personne,Texte,Texte long,1000,Oui,Non
-parcours,Parcours professionnel ou personnel,Texte,Texte long,2000,Non,Non
-categorie_competence,Catégorie d'une compétence,Texte,Texte,100,Oui,Non
-competence,Nom d'une compétence,Texte,Texte,100,Oui,Non
-nom_categorie,Nom de la catégorie d'article,Texte,Texte,100,Oui,Non
-description_categorie,Description de la catégorie,Texte,Texte long,500,Non,Non
-titre_article,Titre de l'article,Texte,Texte,255,Oui,Non
-description_article,Résumé ou courte description de l'article,Texte,Texte long,500,Oui,Non
-contenu_article,Contenu complet de l'article,Texte,Texte long,5000,Oui,Non
-image_article,Image principale de l'article,Texte,URL ou nom de fichier image,255,Non,Non
-date_publication,Date de publication de l'article,Date,JJ/MM/AAAA,10,Oui,Non
-temps_lecture,Durée estimée de lecture,Entier,Minutes,3,Non,Oui
-email,Adresse email de l'administrateur,Texte,Email,255,Oui,Non
-mot_de_passe,Mot de passe de l'administrateur,Texte,Texte sécurisé,255,Oui,Non
+Nom,Signification,Format,Obligatoire,Calculée
+nom,Nom de la personne,Alphabétique,Oui,Non
+prenom,Prénom de la personne,Alphabétique,Oui,Non
+photo_profil,Image du profil,URL ou nom de fichier image,Non,Non
+description_profil,Présentation de la personne,Texte long Oui,Non
+parcours,Parcours professionnel ou personnel,Texte long,Non,Non
+categorie_competence,Catégorie d'une compétence,Texte,Oui,Non
+competence,Nom d'une compétence,Texte,Oui,Non
+nom_categorie,Nom de la catégorie d'article,Texte,Oui,Non
+description_categorie,Description de la catégorie,Texte long,Non,Non
+titre_article,Titre de l'article,Texte,Oui,Non
+description_article,Résumé ou courte description de l'article,Texte long,Oui,Non
+contenu_article,Contenu complet de l'article,Texte long,Oui,Non
+image_article,Image principale de l'article,URL ou nom de fichier image,Non,Non
+date_publication,Date de publication de l'article,JJ/MM/AAAA,Oui,Non
+temps_lecture,Durée estimée de lecture,Minutes,Oui
+email,Adresse email de l'administrateur,Email,Oui,Non
+mot_de_passe,Mot de passe de l'administrateur,Texte sécurisé,Oui,Non
