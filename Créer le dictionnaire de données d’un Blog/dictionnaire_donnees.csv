@@ -1,18 +1,15 @@
-Nom,Signification,Format,Obligatoire,Calculée
-nom,Nom de la personne,Alphabétique,Oui,Non
-prenom,Prénom de la personne,Alphabétique,Oui,Non
-photo_profil,Image du profil,URL ou nom de fichier image,Non,Non
-description_profil,Présentation de la personne,Texte long,Oui,Non
-parcours,Parcours professionnel ou personnel,Texte long,Non,Non
-categorie_competence,Catégorie d'une compétence,Texte,Oui,Non
-competence,Nom d'une compétence,Texte,Oui,Non
-nom_categorie,Nom de la catégorie d'article,Texte,Oui,Non
-description_categorie,Description de la catégorie,Texte long,Non,Non
-titre_article,Titre de l'article,Texte,Oui,Non
-description_article,Résumé ou courte description de l'article,Texte long,Oui,Non
-contenu_article,Contenu complet de l'article,Texte long,Oui,Non
-image_article,Image principale de l'article,URL ou nom de fichier image,Non,Non
-date_publication,Date de publication de l'article,JJ/MM/AAAA,Oui,Non
-temps_lecture,Durée estimée de lecture,Minutes,Oui,Non
-email,Adresse email de l'administrateur,Email,Oui,Non
-mot_de_passe,Mot de passe de l'administrateur,Texte sécurisé,Oui,Non
+interface,Nom,signification,Type,Obligatoire,calcule
+user,nom,Nom de la personne,VARCHAR,oui,non
+user,email,Adresse email de l'utilisateur,VARCHAR / Email,oui,non
+user,mot_de_passe,Mot de passe de l'utilisateur,VARCHAR,oui,non
+user,photo_profil,Photo de profil de l'utilisateur,VARCHAR / URL,non,non
+article,titre,Titre de l'article,VARCHAR,oui,non
+article,contenu,Contenu complet de l'article,TEXT,oui,non
+article,image_article,Image principale de l'article,VARCHAR / URL,non,non
+article,nom_article,Nom de l'article,VARCHAR,oui,non
+article,statut_article,État de l'article (Brouillon ou Publié),ENUM,oui,non
+article,date_creation,Date de création de l'article,DATETIME,oui,non
+article,temps_lecture_estime,Durée estimée nécessaire pour lire l'article,INT,oui,oui
+category,nom_categorie,Nom de la catégorie,VARCHAR,oui,non
+category,couleur,Couleur associée à la catégorie,VARCHAR / HEX,oui,non
+category,icone,Icône associée à la catégorie,VARCHAR,oui,non
