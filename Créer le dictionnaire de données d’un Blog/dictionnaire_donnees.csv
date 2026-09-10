@@ -2,7 +2,7 @@ Nom,Signification,Format,Obligatoire,Calculée
 nom,Nom de la personne,Alphabétique,Oui,Non
 prenom,Prénom de la personne,Alphabétique,Oui,Non
 photo_profil,Image du profil,URL ou nom de fichier image,Non,Non
-description_profil,Présentation de la personne,Texte long Oui,Non
+description_profil,Présentation de la personne,Texte long,Oui,Non
 parcours,Parcours professionnel ou personnel,Texte long,Non,Non
 categorie_competence,Catégorie d'une compétence,Texte,Oui,Non
 competence,Nom d'une compétence,Texte,Oui,Non
