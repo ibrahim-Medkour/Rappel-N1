@@ -3,7 +3,7 @@ user,nom,Nom de la personne,VARCHAR,oui,non
 user,email,Adresse email de l'utilisateur,VARCHAR / Email,oui,non
 user,mot_de_passe,Mot de passe de l'utilisateur,VARCHAR,oui,non
 user,photo_profil,Photo de profil de l'utilisateur,VARCHAR / URL,non,non
-article,titre,Titre de l'article,VARCHAR,oui,non
+article,titre_article,Titre de l'article,VARCHAR,oui,non
 article,contenu,Contenu complet de l'article,TEXT,oui,non
 article,image_article,Image principale de l'article,VARCHAR / URL,non,non
 article,statut_article,État de l'article (Brouillon ou Publié),ENUM,oui,non
