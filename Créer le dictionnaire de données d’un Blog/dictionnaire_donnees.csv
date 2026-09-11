@@ -6,7 +6,6 @@ user,photo_profil,Photo de profil de l'utilisateur,VARCHAR / URL,non,non
 article,titre,Titre de l'article,VARCHAR,oui,non
 article,contenu,Contenu complet de l'article,TEXT,oui,non
 article,image_article,Image principale de l'article,VARCHAR / URL,non,non
-article,nom_article,Nom de l'article,VARCHAR,oui,non
 article,statut_article,État de l'article (Brouillon ou Publié),ENUM,oui,non
 article,date_creation,Date de création de l'article,DATETIME,oui,non
 article,temps_lecture_estime,Durée estimée nécessaire pour lire l'article,INT,oui,oui
