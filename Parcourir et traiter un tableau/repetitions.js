@@ -3,11 +3,11 @@ let repetition = [];
 
 for (let i = 0; i < nombres.length; i++) {
 
+    let existe = false;
+
     for (let a = 0; a < nombres.length; a++) {
 
         if (nombres[i] == nombres[a] && i != a) {
-
-            let existe = false;
 
             for (let b = 0; b < repetition.length; b++) {
 

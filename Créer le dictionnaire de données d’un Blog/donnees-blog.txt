@@ -1,14 +1,19 @@
-Nom
-nom
-email
+Nom complete l'auteur
+prenom l'auteur
+email l'auteur
 mot_de_passe
-photo_profil
+date d'inscription l'auteur
+photo_profil l'auteur
 titre
 contenu
+id_article_presedent
+id_article suivant
+nombre de vue
+nombre de vue totale
 image article
-nom_article
 statut_article
 date_creation
+date_publication
 temps_lecture_estime
 nom_categorie
 couleur
