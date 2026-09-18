@@ -1,7 +1,7 @@
 -- 1. Création de la base de données
-CREATE DATABASE gestion_films;
+CREATE DATABASE films;
 
-USE gestion_films;
+USE films;
 
 
 -- 2. Table DIRECTOR
@@ -19,6 +19,17 @@ CREATE TABLE filmgenre (
     nom_genre VARCHAR(100) NOT NULL
 );
 
+INSERT INTO filmgenre (nom_genre) VALUES
+('Action'),
+('Comédie'),
+('Drame'),
+('Horreur'),
+('Science-Fiction'),
+('Romance'),
+('Thriller'),
+('Aventure'),
+('Animation'),
+('Fantastique');
 
 -- 4. Table MOVIE
 CREATE TABLE movie (
